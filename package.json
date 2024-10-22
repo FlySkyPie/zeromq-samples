@@ -1,0 +1,17 @@
+{
+  "name": "zeromq-samples",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start:request-reply": "vite-node src/request-reply.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "vite-node": "^2.1.3",
+    "zeromq": "^6.1.0"
+  }
+}
