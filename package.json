@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start:request-reply": "vite-node src/request-reply/index.ts"
+    "start:request-reply": "vite-node src/request-reply/index.ts",
+    "start:reply-request": "vite-node src/reply-request/index.ts"
   },
   "devDependencies": {
     "typescript": "^5.5.3",
