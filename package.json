@@ -6,7 +6,8 @@
   "scripts": {
     "start:request-reply": "vite-node src/request-reply/index.ts",
     "start:reply-request": "vite-node src/reply-request/index.ts",
-    "start:publisher-subscriber": "vite-node src/publisher-subscriber/index.ts"
+    "start:publisher-subscriber": "vite-node src/publisher-subscriber/index.ts",
+    "start:push-pull": "vite-node src/push-pull/index.ts"
   },
   "devDependencies": {
     "typescript": "^5.5.3",
