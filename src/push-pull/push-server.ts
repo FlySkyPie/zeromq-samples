@@ -1,5 +1,3 @@
-
-
 import * as zmq from "zeromq"
 
 async function run() {
@@ -9,10 +7,11 @@ async function run() {
   console.log("Producer bound to port 38989")
 
   while (true) {
-    await sock.send("some work")
+    console.log("Send some work");
+    await sock.send("some work"); // This would blocked if no Pull is connrected.
     await new Promise(resolve => {
-      setTimeout(resolve, 500)
-    })
+      setTimeout(resolve, 500);
+    });
   }
 }
 
